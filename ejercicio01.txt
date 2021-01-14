@@ -1,10 +1,16 @@
-1. Inicio
-2. arreglo1 (4), x[{a-z},{A-Z}])
-3. arreglo2 (4), i[0-n]
-4. arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
-5. arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
-6. Escribir "El valor de z es?:"
-7. Para(indice<--1, indice < 3, 2) haga
-8. Escribir arreglo1 [a**2+b**2] +" $" + arreglo2 [a*b]
-9. Fin_Para 
-10.Fin
+1. Inicio 
+2. Inicio función Principal ()
+3. 		arreglo1(4), i[0-n] <-- {9, 8, 7, 6}
+4.		arreglo2(4), i[0-n] <-- {2, 3, 2, 3}
+5. 		contador, i[0-n] <-- 0
+6.	 Mientras ( contador < 4 ) entonces
+7. 		generarOperacion ( arreglo1[contador], arreglo2[contador])
+8. 		contador <-- contador + 1 
+9. 	Fin Mientras
+10. Fin función  Principal.
+11.
+12. función generarOperacion ( a, i[0-n] ; b, i[0-n] )
+13. 	z, i[0,n]
+14. 	z = (a*2 + b * 2) + a*b
+15. 	Escribir "El valor de z es:" + z
+16. Fin función generarOperación
